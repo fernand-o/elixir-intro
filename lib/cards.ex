@@ -1,4 +1,7 @@
 defmodule Cards do
+  @moduledoc """
+    Provides methods for handling a card game
+  """
 
   def create_deck do
     values = ["Ace", "Two", "Three"]
